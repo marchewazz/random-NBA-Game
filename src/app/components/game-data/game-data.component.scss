@@ -1,0 +1,46 @@
+.data{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    width: 100%;
+    height: 100%;
+
+    header{
+        display: flex;
+        justify-content: space-evenly;
+
+        .infos {
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+        }
+    }
+
+    main {
+        .players{
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            height: 100%;
+
+            div {
+                display: grid;
+                grid-template-rows: 1fr 2fr;
+
+                header {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                main {
+                    display: grid;
+                    grid-template-rows: repeat(auto);
+
+                    p {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}
