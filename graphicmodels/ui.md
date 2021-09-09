@@ -1,1 +1,0 @@
-here is link to UI design project: https://framer.com/share/PcSqDmtabK0MMUEhcMG3/W1DF64ENg
