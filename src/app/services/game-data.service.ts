@@ -23,7 +23,5 @@ export class GameDataService {
     let randomID = Math.floor(Math.random() * 10000 + 1);
     let apiUrl = `https://api-nba-v1.p.rapidapi.com/gameDetails/${randomID}`;
     return this.http.get(apiUrl, httpOptions);
-    
-
   } 
 }
